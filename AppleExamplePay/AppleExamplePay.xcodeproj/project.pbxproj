@@ -16,6 +16,7 @@
 		52952FAE29DAE15200DD523C /* AppleExamplePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52952FAD29DAE15200DD523C /* AppleExamplePayTests.swift */; };
 		52952FB829DAE15200DD523C /* AppleExamplePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52952FB729DAE15200DD523C /* AppleExamplePayUITests.swift */; };
 		52952FBA29DAE15200DD523C /* AppleExamplePayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52952FB929DAE15200DD523C /* AppleExamplePayUITestsLaunchTests.swift */; };
+		52952FC729DB16CA00DD523C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52952FC629DB16CA00DD523C /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		52952FB329DAE15200DD523C /* AppleExamplePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleExamplePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52952FB729DAE15200DD523C /* AppleExamplePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleExamplePayUITests.swift; sourceTree = "<group>"; };
 		52952FB929DAE15200DD523C /* AppleExamplePayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleExamplePayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52952FC629DB16CA00DD523C /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				52952F9F29DAE15200DD523C /* Assets.xcassets */,
 				52952FA129DAE15200DD523C /* LaunchScreen.storyboard */,
 				52952FA429DAE15200DD523C /* Info.plist */,
+				52952FC629DB16CA00DD523C /* NewViewController.swift */,
 			);
 			path = AppleExamplePay;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				52952F9B29DAE15000DD523C /* ViewController.swift in Sources */,
 				52952F9729DAE15000DD523C /* AppDelegate.swift in Sources */,
 				52952F9929DAE15000DD523C /* SceneDelegate.swift in Sources */,
+				52952FC729DB16CA00DD523C /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
