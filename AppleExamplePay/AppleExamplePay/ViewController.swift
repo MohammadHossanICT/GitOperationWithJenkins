@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     @objc func tapForPay(){
         if !textFieldAmount.text!.isEmpty {
             let amount = textFieldAmount.text!
-            payment.paymentSummaryItems = [PKPaymentSummaryItem(label: "iPhone XR 128 GB", amount: NSDecimalNumber(string: amount))]
+            payment.paymentSummaryItems = [PKPaymentSummaryItem(label: "iPhone XR 258 GB", amount: NSDecimalNumber(string: amount))]
 
             let controller = PKPaymentAuthorizationViewController(paymentRequest: payment)
             if controller != nil {
