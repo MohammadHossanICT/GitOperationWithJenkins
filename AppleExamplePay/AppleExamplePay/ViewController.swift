@@ -20,8 +20,7 @@ class ViewController: UIViewController {
         self.btn_pay.addTarget(self, action: #selector(tapForPay), for: .touchUpInside)
 
         payment.merchantIdentifier = "merchant.Swift.AppleWallet"
-        payment.supportedNetworks = [.masterCard, .visa,
-                                     .amex, .maestro]
+        payment.supportedNetworks = [.quicPay, .masterCard, .visa, .amex, .maestro]
         payment.supportedCountries = ["IN", "US","GB"]
         payment.merchantCapabilities = .capability3DS
         payment.countryCode = "GB"
